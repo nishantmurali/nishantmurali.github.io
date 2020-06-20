@@ -36,7 +36,7 @@
         */
         .layout {
             grid-template-rows: 1fr 1fr 1fr;
-            grid-auto-rows: minmax(100px, auto);
+            grid-auto-rows: 50px 1fr 1fr 100px;
             grid-gap: 1em;
 		}
         .layout > div {
@@ -48,18 +48,17 @@
             background:#ddd;
 		}
         .header {
-            grid-column: 1/4;  
+            grid-column-start: 1;
+            grid-column-start: 4;
 		}
         .box2 {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column: 1/3;  
+            
 		}
 
     </style>
 
     <div class="layout">
-        <div class="header"> header </div>
+        <div class="header"> Header </div>
         <div class="box2"> Box 2 </div>
         <div class="box3"> Box 3 </div>
         <div class="box4"> Box 4 </div>
