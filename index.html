@@ -53,15 +53,22 @@
             color: white;
 		}
         .me {
+            grid-row-start: 2;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+
             width: 200px;
             border: 10px solid white;
+            
 		}
 
     </style>
 
     <div class="container">
         <div class="header"> Header </div>
-        <div class="content1"> <img class="me" src="img/me.PNG"> About me </div>
+        <div class="me"> <img src="img/me.PNG"> </div>
+        <div class="content1">  About me </div>
         <div class="content2"> content2 </div>
         <div class="content3"> content3 </div>
 
