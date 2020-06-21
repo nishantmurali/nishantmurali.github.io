@@ -24,7 +24,7 @@
             
 
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns:1fr 2fr 1fr;
             grid-template-rows: 50px 1fr 1fr 100px;
             gap: 10px;
 		}
@@ -46,15 +46,10 @@
         .content1 {
             grid-row-start: 2;
             grid-row-end: span 2;
-            grid-column-start: 2;
+            grid-column-start: ;
             grid-column-end: 3;
 		}
-        .content3 {
-            grid-row-start: 2;
-            grid-row-end: span 2;
-            grid-column-start: 1;
-            grid-column-end: span 1;
-        }
+ 
         h1 {
             color: white;
             font-family: monospace;  
@@ -66,7 +61,8 @@
            font-size: 15px;
 		}
         #me {
-            margin: 0;
+            
+
             width: 170px;
             object-fit: contain;
             border: 5px solid white;
@@ -81,10 +77,9 @@
 
         <div class="content1">  
         <h1> About Me </h1>
-        <img id="me" src="img/me.PNG"> 
         <p> My name is Nishant Murali. I'm in the 12th grade and I go to Coppell High in Texas. I created this website to showcase my coding skills and share my taste in music.
         </div>
-
+        <img id="me" src="img/me.PNG"> 
         <div class="content2"> 
         <h1> Music </h1>
         <p>content2</p>
