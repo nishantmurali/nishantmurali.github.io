@@ -66,6 +66,7 @@
 		}
         .home {
             position: absolute;
+            width: 50px;
             top: 15px;
             right: 100px;
             color: white;
