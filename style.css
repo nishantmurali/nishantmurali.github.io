@@ -64,6 +64,13 @@
             width: 50px;
             color: white;
 		}
+        .home {
+            position: absolute;
+            top: 15px;
+            right: 100px;
+            color: white;
+            margin: 0;
+		}
         .dropdown {
               list-style: none;
               width: 50px;
