@@ -120,7 +120,7 @@
         a:link, a:visited {
             color: white;  
 		}
-        .dropdown ul li:hover {
+        .sub-menu:hover {
             color: blue;  
 		}
         .dropdown ul:hover {
@@ -129,8 +129,10 @@
         #dropbutton:hover {
             color:blue;  
 		}
-        #dropbutton:hover > .dropdown ul li {
-            display: block;  
+        .dropbutton:hover .sub-menu {
+            display: block;
+            position: absolute;
+            
 		}
         a:hover {
             color: blue;  
@@ -179,11 +181,13 @@
 
     <div class="dropdown">
          <i id="dropbutton" class="fa fa-bars" aria-hidden="true"> 
+         <div class="sub-menu">
             <ul>
                 <li> Education </li>
                 <li> Volunteering </li>
                 <li> Achievements </li>
             </ul>
+         </div>
          </i>
     </div>
 
