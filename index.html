@@ -109,7 +109,7 @@
             padding: 0px;
             text-align: center;
 		}
-        .sub-menu{
+        .dropdown ul li{
             color: white;
             font-family: monospace;
             width: 100px;
@@ -120,7 +120,7 @@
         a:link, a:visited {
             color: white;  
 		}
-        .sub-menu:hover {
+        .dropdown ul li:hover {
             color: blue;  
 		}
         .dropdown ul:hover {
@@ -129,7 +129,7 @@
         #dropbutton:hover {
             color:blue;  
 		}
-        .dropdown i:hover .sub-menu {
+        .dropdown i:hover dropdown ul li {
             display: block;
             position: absolute;
             
@@ -181,13 +181,11 @@
 
     <div class="dropdown">
          <i id="dropbutton" class="fa fa-bars" aria-hidden="true"> 
-         <div class="sub-menu">
             <ul>
                 <li> Education </li>
                 <li> Volunteering </li>
                 <li> Achievements </li>
             </ul>
-         </div>
          </i>
     </div>
 
