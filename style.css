@@ -64,10 +64,11 @@
             width: 50px;
             color: white;
 		}
-        .home {
+        #home {
             position: absolute;
             width: 75px;
             top: 15px;
+            right: 1000px;
             color: white;
 		}
         .dropdown {
