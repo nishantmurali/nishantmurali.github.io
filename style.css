@@ -64,7 +64,7 @@
             width: 50px;
             color: white;
 		}
-        .home {
+        .home a i{
             position: absolute;
             width: 50px;
             top: 15px;
