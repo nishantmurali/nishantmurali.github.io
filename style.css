@@ -66,9 +66,9 @@
 		}
         #home {
             position: absolute;
-            width: 75px;
+            width: 50px;
             top: 15px;
-            right: 1500px;
+            left: 0px;
             color: white;
 		}
         .dropdown {
