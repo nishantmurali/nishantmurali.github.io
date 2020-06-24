@@ -64,13 +64,12 @@
             width: 50px;
             color: white;
 		}
-        .home a i{
-            position: absolute;
+        .home {
             width: 50px;
+            position: absolute;
             top: 15px;
             left: 0px;
             color: white;
-            background-color: black;
 		}
         .dropdown {
               list-style: none;
