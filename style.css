@@ -66,10 +66,9 @@
 		}
         .home {
             position: absolute;
-            width: 50px;
+            width: 75px;
             top: 15px;
             color: white;
-            padding-left: 10px;
 		}
         .dropdown {
               list-style: none;
