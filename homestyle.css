@@ -107,7 +107,7 @@
         a:hover {
             color: blue;  
 		}
-        #me {
+        .image {
             width: 200px;
             position: absolute;
             top: 400px;
