@@ -1,0 +1,94 @@
+ body {
+            margin: 0; 
+            background-color: rgb(27, 27, 27);  
+            overflow-x: hidden;
+ }
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+            background-color: salmon;
+            font-weight: bold;
+            color: white; 
+            font-size: 20px;
+            font-family: Monospace;
+            text-align: center;
+		}
+        h1 {
+            color: white;
+            font-family: monospace;  
+            text-align: center
+		}
+        h2 {
+            float: left;
+            color: white;
+            font-family: monospace; 
+            visibility:hidden;
+        }
+        p {
+           color: white;
+           font-family: monospace;  
+           font-size: 15px;
+           text-align: center;
+		}
+        #icons ul{
+            list-style: none;
+            position: absolute;
+            top: 15px;
+            right: 50px;
+            margin: 0;
+		}
+        #icons ul li{
+            float: left; 
+            width: 50px;
+            color: white;
+		}
+        .home {
+            width: 50px;
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            color: white;
+		}
+        .dropdown {
+              list-style: none;
+              width: 50px;
+              position: absolute;
+              top: 15px;
+              right: 0px;
+              color: white;
+		}
+        .dropdown ul {
+            position: absolute;
+            right: 0px;
+            padding: 0px;
+        }
+        .dropdown ul li{
+            list-style: none; 
+            color: white;
+            font-family: monospace;
+            width: 100px;
+            border: 1px solid white;
+            padding: 10px;
+            display: none;
+            text-align: center;	
+            background-color: salmon;
+		}
+        .dropdown i:hover ul li {
+            display: block;  
+		}
+        a:link, a:visited {
+            color: white;  
+		}
+        .dropdown ul li:hover {
+            color: blue;  
+		}
+        .dropdown ul:hover {
+            color: blue;  
+		}
+        #drop-button:hover {
+            color:blue;  
+		}
+        a:hover {
+            color: blue;  
+		}
