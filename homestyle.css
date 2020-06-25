@@ -107,6 +107,7 @@
         a:hover {
             color: blue;  
 		}
-        #image {
+        #image1 {
             width: 30%;
+            border: 5px solid white;
 		}
