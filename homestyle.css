@@ -108,10 +108,5 @@
             color: blue;  
 		}
         .image {
-            width: 414px;
-            height: 896px;
-            position: absolute;
-            top: 400px;
-            right: 400px;
-            border: 1px solid white;
+            width: 30%;
 		}
