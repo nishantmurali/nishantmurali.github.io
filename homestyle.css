@@ -110,8 +110,8 @@
         #image1 {
             width: 20%;
             position: absolute;
-            top: 400px;
-            right: 400px;
+            top: 200px;
+            right: 300px;
             border: 5px solid white;
             background-color: white;
 		}
