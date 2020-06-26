@@ -41,7 +41,7 @@
             visibility:hidden;
         }
         h3 {
-            font-size: 20px; 
+            font-size: 50px; 
             color: white;
             font-family: monospace;
 		}
@@ -52,7 +52,7 @@
            text-align: center;
 		}
         #name {
-           font-size: 40px; 
+           font-size: 70px; 
            color: white;
            font-family: monospace; 
 		}
@@ -128,5 +128,6 @@
             position: absolute;
             top: 200px;
             right: 450px;
+            text-align: center;
             border: solid salmon;
 		}
