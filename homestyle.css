@@ -54,7 +54,7 @@
         #name {
            font-size: 70px; 
            color: white;
-           font-family: monospace; 
+           font-family: URW Chancery L, cursive; 
 		}
         #icons ul{
             list-style: none;
@@ -127,7 +127,7 @@
         .greeting {
             position: absolute;
             top: 200px;
-            right: 550px;
+            right: 525px;
             text-align: center;
             border: solid salmon;
 		}
