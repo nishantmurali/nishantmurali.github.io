@@ -117,5 +117,6 @@
         .greeting {
             position: absolute;
             top: 200px;
+            right: 450px;
             border: solid white;
 		}
