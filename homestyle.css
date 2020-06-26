@@ -127,7 +127,8 @@
         .greeting {
             position: absolute;
             top: 200px;
-            right: 450px;
+            right: 550px;
             text-align: center;
             border: solid salmon;
+            padding: 5px;
 		}
