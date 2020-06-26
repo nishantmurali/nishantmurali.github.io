@@ -44,7 +44,6 @@
             font-size: 50px; 
             color: white;
             font-family: URW Chancery L; 
-;
 		}
         p {
            color: white;
@@ -53,7 +52,7 @@
            text-align: center;
 		}
         #name {
-           font-size: 70px; 
+           font-size: 60px; 
            color: white;
            font-family: URW Chancery L; 
 		}
