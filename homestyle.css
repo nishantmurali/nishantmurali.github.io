@@ -43,7 +43,8 @@
         h3 {
             font-size: 50px; 
             color: white;
-            font-family: monospace;
+            font-family: URW Chancery L; 
+;
 		}
         p {
            color: white;
@@ -54,7 +55,7 @@
         #name {
            font-size: 70px; 
            color: white;
-           font-family: URW Chancery L, cursive; 
+           font-family: URW Chancery L; 
 		}
         #icons ul{
             list-style: none;
