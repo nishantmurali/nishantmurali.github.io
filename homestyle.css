@@ -42,6 +42,8 @@
         }
         h3 {
             font-size: 20px; 
+            color: white;
+            font-family: monospace;
 		}
         p {
            color: white;
@@ -49,8 +51,10 @@
            font-size: 15px;
            text-align: center;
 		}
-        p1 {
-            font-size: 30px;  
+        #name {
+           font-size: 40px; 
+           color: white;
+           font-family: monospace; 
 		}
         #icons ul{
             list-style: none;
@@ -125,5 +129,5 @@
             top: 200px;
             right: 450px;
             border: solid white;
-            background-color: white;k
+            background-color: white;
 		}
