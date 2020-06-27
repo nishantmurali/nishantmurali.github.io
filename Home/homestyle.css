@@ -125,6 +125,7 @@
             border: 5px solid white;
 		}
         .greeting {
+            width: 70%;
             position: absolute;
             top: 180px;
             right: 525px;
