@@ -43,7 +43,7 @@
         h3 {
             font-size: 30px; 
             color: white;
-            font-family: cursive; 
+            font-family: monospace; 
 		}
         p {
            color: white;
@@ -54,7 +54,7 @@
         #name {
            font-size: 70px; 
            color: white;
-           font-family: cursive; 
+           font-family: monospace; 
 		}
         #icons ul{
             list-style: none;
