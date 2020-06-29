@@ -13,7 +13,7 @@
 
             display: grid;
             grid-template-columns:1fr 2fr 1fr;
-            grid-template-rows: 50px 1fr 1fr 100px;
+            grid-template-rows: 50px 1fr 1fr 25px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
@@ -36,6 +36,7 @@
             grid-column-start: 1;
             grid-column-end: 4;
             grid-row-start: 4;
+            grid-row-end: 4;
 
             background-color:salmon;
             color: white; 
