@@ -89,7 +89,8 @@
         }
         .dropdown ul li{
             list-style: none; 
-            color: white;
+            color: salmon;
+            text-decoration: none;
             font-family: monospace;
             width: 100px;
             border: 1px solid white;
@@ -121,7 +122,7 @@
             width: 15%;
             position: absolute;
             top: 100px;
-            right: 250px;
+            right: 300px;
 		}
         .greeting {
             width: 500px;
