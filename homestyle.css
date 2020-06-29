@@ -107,10 +107,10 @@
             color: white;  
 		}
         .dropdown ul li:hover {
-            color: blue;  
+            color: salmon;  
 		}
         .dropdown ul:hover {
-            color: blue;  
+            color: salmon;  
 		}
         #drop-button:hover {
             color:blue;  
