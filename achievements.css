@@ -114,9 +114,9 @@ body {
             color: blue;  
 		}
         #image2 {
-            width: 500px;
+            width: 475px;
             position: absolute;
             top: 300px;
-            right: 450px;
-            border: 1px soild white;
+            right: 400px;
+            border: 1px solid white;
 		}
