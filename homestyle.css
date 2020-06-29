@@ -57,7 +57,6 @@
            font-size: 70px; 
            color: white;
            font-family: monospace; 
-           border-bottom: 3px solid white;
 		}
         #icons ul{
             list-style: none;
@@ -135,4 +134,6 @@
             right: 455px;
             text-align: center;
             margin: 0px;
+            border-bottom: 3px solid white;
+
 		}
