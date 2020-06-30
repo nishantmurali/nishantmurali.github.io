@@ -20,7 +20,7 @@ body {
 		}
         .header {
             grid-column-start: 1;
-            grid-column-end: 4;
+            grid-column-end: 5;
 
             background-color: salmon;
             font-weight: bold;
@@ -114,9 +114,9 @@ body {
             color: blue;  
 		}
         #image2 {
-            width: 450px;
+            width: 520px;
             position: absolute;
-            top: 250px;
-            right: 400px;
+            top: 70px;
+            right: 70px;
             border: 1px solid white;
 		}
