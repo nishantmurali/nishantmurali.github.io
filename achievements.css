@@ -82,6 +82,8 @@ body {
               top: 15px;
               right: 0px;
               color: white;
+              background-color: salmon;
+              z-index: 1;
 		}
         .dropdown ul {
             position: absolute;
@@ -122,5 +124,5 @@ body {
             position: absolute;
             top: 70px;
             right: 70px;
-            border: 1px solid white;
+            z-index: 0;
 		}
