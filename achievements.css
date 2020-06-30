@@ -82,13 +82,13 @@ body {
               top: 15px;
               right: 0px;
               color: white;
-              background-color: salmon;
               z-index: 1;
 		}
         .dropdown ul {
             position: absolute;
             right: 0px;
             padding: 0px;
+            background-color: salmon;
         }
         .dropdown ul li{
             list-style: none; 
