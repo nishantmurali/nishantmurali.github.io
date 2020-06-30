@@ -9,18 +9,17 @@
             
 
             display: grid;
-            grid-template-columns:1fr 2fr 1fr;
+            grid-template-columns:1fr 1fr 1fr 1fr;
             grid-template-rows: 50px 1fr 1fr 100px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
         .container div {
             padding: 10px;
-            border: 1px solid white;
 		}
         .header {
             grid-column-start: 1;
-            grid-column-end: 4;
+            grid-column-end: 5;
 
             background-color: salmon;
             font-weight: bold;
@@ -32,8 +31,13 @@
         .content1 {
             grid-row-start: 2;
             grid-row-end: span 2;
-            grid-column-start: ;
+            grid-column-start: 1;
             grid-column-end: 3;
+            margin-left: 65px;
+            border-bottom: 5px solid white;
+		}
+        .content2 {
+          
 		}
         h1 {
             color: white;
@@ -78,11 +82,13 @@
               top: 15px;
               right: 0px;
               color: white;
+              z-index: 1;
 		}
         .dropdown ul {
             position: absolute;
             right: 0px;
             padding: 0px;
+            background-color: salmon;
         }
         .dropdown ul li{
             list-style: none; 
