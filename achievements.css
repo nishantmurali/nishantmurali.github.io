@@ -4,13 +4,13 @@ body {
             overflow-x: hidden;
 		}
         .container {
-            width: 100vw;
+           width: 100vw;
             height: 100vh;
             
 
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(5, minmax(50px, 131.2px);
+            grid-template-columns:1fr 2fr 1fr;
+            grid-template-rows: 50px 1fr 1fr 100px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
