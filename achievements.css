@@ -42,8 +42,8 @@ body {
             grid-column-start: 3;
             grid-column-end: 5;
             margin-right: 65px;
+            margin-left: 30px;
             border-bottom: 5px solid white;
-            border-top: 5px solid white;
 		}
    
         h1 {
