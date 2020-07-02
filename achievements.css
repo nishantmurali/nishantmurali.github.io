@@ -46,13 +46,11 @@ body {
             border-bottom: 5px solid white;
 		}
         .content3 {
-            grid-row-start: ;
-            grid-row-end: ;
-            grid-column-start: ;
-            grid-column-end: ;
-
+            grid-row-start: 6;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
 		}
-   
         h1 {
             color: white;
             font-family: monospace;  
@@ -141,10 +139,10 @@ body {
             z-index: 0;
 		}
         #image3 {
-            width: 525px;
+            width: 480px;
             position: absolute;
             top: 515px;
-            left: 75px;
-            z-index: 0;  
+            left: 110px;
+            z-index: 0; 
 		}
 
