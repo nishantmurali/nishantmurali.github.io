@@ -45,6 +45,13 @@ body {
             margin-left: 30px;
             border-bottom: 5px solid white;
 		}
+        .content3 {
+            grid-row-start: ;
+            grid-row-end: ;
+            grid-column-start: ;
+            grid-column-end: ;
+
+		}
    
         h1 {
             color: white;
@@ -140,3 +147,4 @@ body {
             left: 75px;
             z-index: 0;  
 		}
+
