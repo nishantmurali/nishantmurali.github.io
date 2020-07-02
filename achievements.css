@@ -134,9 +134,9 @@ body {
             z-index: 0;
 		}
         #image3 {
-            width: ;
+            width: 525px;
             position: absolute;
-            top: ;
-            right: ;
+            top: 515px;
+            left: 75px;
             z-index: 0;  
 		}
