@@ -39,10 +39,11 @@ body {
         .content2 {
             grid-row-start: 4;
             grid-row-end: span 2;
-            grid-column-start: 1;
-            grid-column-end: 3;
-            margin-left: 65px;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            margin-right: 65px;
             border-bottom: 5px solid white;
+            border-top: 5px solid white;
 		}
    
         h1 {
