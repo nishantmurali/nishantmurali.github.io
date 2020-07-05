@@ -10,7 +10,7 @@
 
             display: grid;
             grid-template-columns:1fr 1fr 1fr 1fr;
-            grid-template-rows: 50px 1fr 1fr 100px;
+            grid-template-rows: 50px 185px 185px 185px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
@@ -125,7 +125,8 @@
             font-family: monospace;
         }
         #image1 {
-            width: 400px;
+            width: 280px;
             position: absolute;
-            
+            top: 80px;
+            right: 25px;
 		}
