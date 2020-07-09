@@ -48,8 +48,9 @@ body {
         .content3 {
             grid-row-start: 6;
             grid-row-end: span 2;
-            grid-column-start: 2;
-            grid-column-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-left: 65px;
 		}
         h1 {
             color: white;
@@ -146,6 +147,9 @@ body {
             z-index: 0; 
 		}
         #image4 {
-            width: ;  
+            width: 500px;
+            position: absolute;
+            right: 70px;
+            top: 900px; 
 		}
 
