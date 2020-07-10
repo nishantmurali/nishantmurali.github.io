@@ -52,6 +52,18 @@ body {
             grid-column-end: 3;
             margin-left: 65px;
 		}
+        .footer {
+            grid-row-start: 8;
+            grid-row-end: span 1;
+            grid-column-start:  1;
+            grid-column-end: 5;
+
+            background-color: rgb(20, 20, 20, 0);
+            color: white; 
+            font-size: 12px;
+            font-family: monospace;
+            text-align: right;  
+		}
         h1 {
             color: white;
             font-family: monospace;  
