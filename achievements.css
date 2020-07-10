@@ -53,7 +53,7 @@ body {
             margin-left: 65px;
 		}
         .footer {
-            grid-row-start: 8;
+            grid-row-start: 15;
             grid-row-end: span 1;
             grid-column-start:  1;
             grid-column-end: 5;
