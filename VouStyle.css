@@ -56,8 +56,8 @@ body {
         .content4 {
             grid-row-start: 8;
             grid-row-end: span 2;
-            grid-column-start: 3;
-            grid-column-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 4;
             margin-right: 65px;
             border-bottom: 5px solid white;
         }
@@ -174,5 +174,8 @@ body {
             top: 900px;
 		}
         #image5 {
-            width: ;  
+            width: 200px;
+            position: absolute;
+            top: 1300px;
+            left: 65px;
 		}
