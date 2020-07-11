@@ -58,7 +58,7 @@ body {
             grid-row-end: span 2;
             grid-column-start: 3;
             grid-column-end: 5;
-            margin-left: 65px;
+            margin-right: 65px;
             border-bottom: 5px solid white;
         }
         .footer {
@@ -172,4 +172,7 @@ body {
             position: absolute;
             right: 80px;
             top: 900px;
+		}
+        #image5 {
+            width: ;  
 		}
