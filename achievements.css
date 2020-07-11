@@ -10,7 +10,7 @@ body {
 
             display: grid;
             grid-template-columns:1fr 1fr 1fr 1fr;
-            grid-template-rows: 50px 185px 185px 185px 185px;
+            grid-template-rows: 50px 185px 185px 185px 185px 185px 160px 25px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
@@ -53,7 +53,7 @@ body {
             margin-left: 65px;
 		}
         .footer {
-            grid-row-start: 15;
+            grid-row-start: 8;
             grid-row-end: span 1;
             grid-column-start:  1;
             grid-column-end: 5;
@@ -63,7 +63,7 @@ body {
             font-size: 12px;
             font-family: monospace;
             text-align: right;  
-            padding-right: 5px;
+            border-bottom: 5px solid white;
 		}
         h1 {
             color: white;
