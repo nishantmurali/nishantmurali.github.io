@@ -43,7 +43,6 @@ body {
             grid-column-end: 5;
             margin-right: 65px;
             border-bottom: 5px solid white;
-
 		}
         .footer {
             grid-row-start: 8;
