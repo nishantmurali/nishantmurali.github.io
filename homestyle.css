@@ -66,6 +66,9 @@
            font-size: 15px;
            text-align: center;
 		}
+        a {
+            text-decoration: none;  
+		}
         #name {
            font-size: 70px; 
            color: white;
@@ -96,7 +99,6 @@
             top: 15px;
             left: 70px;
             color: black;
-
 		}
         .dropdown {
               list-style: none;
