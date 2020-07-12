@@ -102,13 +102,6 @@ body {
             left: 20px;
             color: white;
 		}
-        .heart {
-            width: 50px;
-            position: absolute;
-            top: 15px;
-            left: 70px;
-            color: white;
-		}
         .dropdown {
               list-style: none;
               width: 50px;
