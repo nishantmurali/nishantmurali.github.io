@@ -48,8 +48,8 @@ body {
         .content3 {
             grid-row-start: 6;
             grid-row-end: span 2;
-            grid-column-start: 1;
-            grid-column-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 5;
             margin-left: 65px;
             border-bottom: 5px solid white;
 
@@ -147,17 +147,17 @@ body {
             color: blue;  
 		}
         #image2 {
-            width: 300px;
+            width: 520px;
             position: absolute;
             top: 70px;
-            right: 200px;
+            right: 70px;
             z-index: 0;
 		}
         #image3 {
-            width: 200px;
+            width: 480px;
             position: absolute;
-            top: 500px;
-            left: 180px;
+            top: 515px;
+            left: 110px;
             z-index: 0;
 		}
         #image4 {
