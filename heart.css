@@ -145,6 +145,7 @@ body {
             top: 70px;
             right: 70px;
             z-index: 0;
+            border: 1px solid white; 
 		}
         #image3 {
             width: 370px;
@@ -154,8 +155,16 @@ body {
             z-index: 0;
 		}
         #image4 {
-            width: 300px;  
+            width: 400px;
+            position: absolute;
+            top: 520px;
+            left: 150px;
+            border: 1px solid white;
 		}
         #image5 {
-            width: 300px;  
+            width: 650px;
+            position: absolute;
+            top: 500px;
+            left: 80px;
+            border: 1px solid white; 
 		}
