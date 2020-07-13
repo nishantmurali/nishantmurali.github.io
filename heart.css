@@ -136,6 +136,13 @@ body {
         a:hover {
             color: blue;  
 		}
+        #image1 {
+            width: 370px;
+            position: absolute;
+            top: 500px;
+            left: 150px;
+            z-index: 0;  
+		}
         #image2 {
             width: 520px;
             position: absolute;
