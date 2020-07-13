@@ -10,7 +10,7 @@ body {
 
             display: grid;
             grid-template-columns:1fr 1fr 1fr 1fr;
-            grid-template-rows: 50px 185px 185px 185px 185px 185px 160px 25px;
+            grid-template-rows: 50px 185px 185px 185px 185px 185px 185px 185px 160px 25px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
@@ -174,8 +174,8 @@ body {
             top: 900px;
 		}
         #image5 {
-            width: 200px;
+            width: 185px;
             position: absolute;
             top: 1300px;
-            left: 65px;
+            left: 85px;
 		}
