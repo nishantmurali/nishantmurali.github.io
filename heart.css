@@ -136,6 +136,9 @@ body {
         a:hover {
             color: blue;  
 		}
+        #image1 {
+            width: ;  
+		}
         #image2 {
             width: 520px;
             position: absolute;
@@ -149,4 +152,10 @@ body {
             top: 500px;
             left: 150px;
             z-index: 0;
+		}
+        #image4 {
+            width: ;  
+		}
+        #image5 {
+            width: ;  
 		}
