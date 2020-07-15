@@ -52,6 +52,14 @@ body {
             margin-right: 65px;
             border-bottom: 5px solid white;
 		}
+        .content4 {
+            grid-row-start: 10;
+            grid-row-end: span 2;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            margin-right: 65px;
+            border-bottom: 5px solid white;  
+		}
         .footer {
             grid-row-start: 8;
             grid-row-end: span 1;
@@ -158,9 +166,8 @@ body {
         #image3 {
             width: 370px;
             position: absolute;
-            top: 500px;
+            top: 1750px;
             left: 150px;
-            z-index: 0;
 		}
         #image4 {
             width: 380px;
