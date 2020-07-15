@@ -184,5 +184,8 @@ body {
             border: 1px solid white;
 		}
         #image6 {
-            width:400px ;  
+            width: 500px;
+            position: absolute;
+            top: 2150px;
+            right: 125px;
 		}
