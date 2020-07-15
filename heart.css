@@ -10,7 +10,7 @@ body {
 
             display: grid;
             grid-template-columns:1fr 1fr 1fr 1fr;
-            grid-template-rows: 50px 185px 185px 185px 185px 185px 160px 25px;
+            grid-template-rows: 50px 185px 185px 185px 185px 185px 185px 185px 185px 185px 160px 25px;
             gap: 10px;
             grid-row-gap: 20px;
 		}
@@ -35,6 +35,13 @@ body {
             grid-column-end: 3;
             margin-left: 65px;
             border-bottom: 5px solid white;
+		}
+        .content2 {
+            grid-row-start: 2;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-left: 65px;
 		}
         .content3 {
             grid-row-start: 6;
