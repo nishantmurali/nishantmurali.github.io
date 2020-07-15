@@ -132,7 +132,8 @@ body {
             display: block;  
 		}
         a:link, a:visited {
-            color: white;  
+            color: white; 
+            text-decoration: none;
 		}
         .dropdown ul li:hover {
             color: blue;  
