@@ -61,7 +61,7 @@ body {
             border-bottom: 4.9px solid white;  
 		}
         .footer {
-            grid-row-start: 8;
+            grid-row-start: 12;
             grid-row-end: span 1;
             grid-column-start:  1;
             grid-column-end: 5;
