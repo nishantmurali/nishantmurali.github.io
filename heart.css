@@ -61,7 +61,7 @@ body {
             border-bottom: 4.9px solid white;  
 		}
         .footer {
-            grid-row-start: 12;
+            grid-row-start: 14;
             grid-row-end: span 1;
             grid-column-start:  1;
             grid-column-end: 5;
@@ -184,8 +184,8 @@ body {
             border: 1px solid white;
 		}
         #image6 {
-            width: 500px;
+            width: 350px;
             position: absolute;
             top: 2150px;
-            right: 125px;
+            right: 150px;
 		}
