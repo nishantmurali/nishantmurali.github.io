@@ -143,3 +143,14 @@ h4 {
     position: absolute;
     top: 295px;
 }
+#image1 {
+    width: 300px;
+    position: absolute;
+    top: 270px;
+}
+#image2 {
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
