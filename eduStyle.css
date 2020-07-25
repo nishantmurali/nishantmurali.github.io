@@ -119,3 +119,27 @@ a:hover {
     font-family: monospace;
     font-size: 15px;
 }
+h3 {
+    color: white;
+    font-family: monospace;
+    font-size: 35px;    
+}
+h4 {
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+}
+#year {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 215px;
+}
+#year2 {
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 295px;
+}
