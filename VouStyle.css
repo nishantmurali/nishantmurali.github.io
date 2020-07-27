@@ -161,10 +161,10 @@ body {
             z-index: 0;
 		}
         #image3 {
-            width: 480px;
+            width: 300px;
             position: absolute;
-            top: 515px;
-            left: 110px;
+            top: 490px;
+            left: 200px;
             z-index: 0; 
 		}
         #image4 {
