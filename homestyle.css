@@ -6,11 +6,6 @@
             background-size: cover;
 
  }
-    @media (max-width: 375px) {
-        body {
-            background-color: white;
-        }
-    }
         .container {
             width: 100vw;
             height: 100vh;
@@ -171,4 +166,9 @@
             border-bottom: 3px solid white;
             border-top: 3px solid white;
             padding:0px;
+        }
+        @media (max-width: 375px) {
+            body {
+                background-color: white;
+            }
         }
