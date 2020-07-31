@@ -137,7 +137,12 @@
 		}
         .dropdown i:hover ul li {
             display: block;  
-		}
+        }
+        #drop-button {
+            height: 50px;
+            width: 50px;
+            
+        }
         a:link, a:visited {
             color: white;  
             text-decoration: none;
@@ -248,6 +253,7 @@
                 color: white;
                 font-family: monospace; 
             }
+            h4
             p {
                 color: white;
                 font-family: monospace;
