@@ -56,10 +56,8 @@
             font-family: monospace; 
 		}
         h2 {
-            float: left;
             color: white;
-            font-family: monospace; 
-            visibility:hidden;
+            font-size: 30px;
         }
         h3 {
             font-size: 30px; 
@@ -241,7 +239,10 @@
                 font-size: 40px;
                 font-family: monospace; 
             }
-           
+            h2 {
+                color: white;
+                font-size: 18px;
+            }
             h3 {
                 font-size: 20px; 
                 color: white;
