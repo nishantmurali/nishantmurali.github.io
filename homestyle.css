@@ -233,7 +233,7 @@
                 color: white; 
                 font-size: 10px;
                 font-family: monospace;
-                text-align: right;
+                text-align: center;
             }
             h1 {
                 float: center;
@@ -253,7 +253,6 @@
                 color: white;
                 font-family: monospace; 
             }
-            h4
             p {
                 color: white;
                 font-family: monospace;
@@ -343,7 +342,7 @@
                 width: 60%;
                 position: absolute;
                 top: 320px;
-                right: 75px;
+                right: 80px;
             }
             .greeting {
                 width: 100px;
