@@ -204,7 +204,7 @@
     
                 display: grid;
                 grid-template-columns:1fr 2fr 1fr;
-                grid-template-rows: 100px 580px 100px 25px;
+                grid-template-rows: 100px 580px 125px 25px;
                 gap: 10px;
                 grid-row-gap: 20px;
             }
@@ -231,7 +231,7 @@
     
                 background-color: rgb(20, 20, 20, 0);
                 color: white; 
-                font-size: 12px;
+                font-size: 10px;
                 font-family: monospace;
                 text-align: right;
             }
