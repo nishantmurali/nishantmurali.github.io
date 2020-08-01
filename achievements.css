@@ -73,10 +73,12 @@
             text-align: center
 		}
         h2 {
-            float: left;
             color: white;
+            position: absolute;
+            left: 610.5px;
+            top: -2px;
+            font-size: 20px;
             font-family: monospace; 
-            visibility:hidden;
         }
         p {
            color: white;
