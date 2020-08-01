@@ -210,8 +210,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-left: 65px;
-        margin-right: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
         border-bottom: 5px solid white;
     }
     .content2 {
@@ -219,8 +219,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-right: 65px;
-        margin-left: 65px;
+        margin-right: 40px;
+        margin-left: 40px;
         border-bottom: 5px solid white;
     }
     .content3 {
@@ -228,8 +228,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-left: 65px;
-        margin-right: 65px;
+        margin-left: 40px;
+        margin-right: 40px;
         border-bottom: 5px solid white;
 
     }
@@ -257,7 +257,7 @@
         top: 0px;
         color: white;
         font-size: 40px;
-       font-family: monospace; 
+        font-family: monospace; 
     }
     p {
        color: white;
@@ -329,24 +329,24 @@
         color: blue;  
     }
     #image2 {
-        width: 220px;
+        width: 250px;
         position: absolute;
-        top: 320px;
-        right: 100px;
+        top: 300px;
+        right: 80px;
         z-index: 0;
     }
     #image3 {
-        width: 80px;
+        width: 200px;
         position: absolute;
-        top: 515px;
+        top: 750px;
         left: 110px;
         z-index: 0; 
     }
     #image4 {
-        width: 75px;
+        width: 180px;
         position: absolute;
-        right: 80px;
-        top: 900px;
+        right: 120px;
+        top: 1150px;
         
     }
 }
