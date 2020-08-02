@@ -212,8 +212,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
         border-bottom: 5px solid white;
     }
     .content2 {
@@ -221,8 +221,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 30px;
+        margin-left: 30px;
         border-bottom: 5px solid white;
     }
     .content3 {
@@ -230,8 +230,8 @@
         grid-row-end: span 2;
         grid-column-start: 1;
         grid-column-end: 5;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
         border-bottom: 5px solid white;
 
     }
@@ -256,7 +256,7 @@
         float: center;
         position: absolute;
         right: 130px;
-        top: 5px;
+        top: 6px;
         color: white;
         font-size: 30px;
         font-family: monospace; 
