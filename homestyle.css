@@ -321,7 +321,8 @@
     
             } 
             .dropdown ul li.active {
-                display: none;
+                display: block;
+                color: blue;
             }
             a:link, a:visited {
                 color: white;  
