@@ -255,10 +255,10 @@
     h2 {
         float: center;
         position: absolute;
-        right: 150px;
-        top: 0px;
+        right: 130px;
+        top: 5px;
         color: white;
-        font-size: 40px;
+        font-size: 30px;
         font-family: monospace; 
     }
     p {
@@ -269,34 +269,34 @@
     #icons ul{
         list-style: none;
         position: absolute;
-        top: 15px;
-        right: 50px;
+        top: 40px;
+        right: 35px;
         margin: 0;
     }
     #icons ul li{
         float: left; 
-        width: 50px;
+        width: 25px;
         color: white;
     }
     .home {
         width: 50px;
         position: absolute;
-        top: 15px;
+        top: 40px;
         left: 20px;
         color: white;
     }
     .dropdown {
           list-style: none;
-          width: 50px;
+          width: 10px;
           position: absolute;
-          top: 15px;
-          right: 0px;
+          top: 40px;
+          right: 20px;
           color: white;
-          z-index: 1;
     }
     .dropdown ul {
         position: absolute;
-        right: 0px;
+        top: 43px;
+        right: -20px;
         padding: 0px;
         background-color: salmon;
     }
