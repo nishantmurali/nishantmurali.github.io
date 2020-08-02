@@ -53,8 +53,8 @@
     </div>
 
     <div class="dropdown">
-         <i id="drop-button" class="fa fa-bars" aria-hidden="true"> 
-           <ul>
+        <div class="dropbutton"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <ul>
                 <li> <a href="achievements.html"> Achievements </a> </li>
                 <li> <a href="education.html"> Education </a> </li>
                 <li> <a href="volunteering.html"> Volunteering </a> </li>
@@ -71,6 +71,16 @@
     <img src="img/fbok.jpg" id="image3">
     <img src="img/nhs.jpg" id="image4">
     <img src="img/downtown.jpg" id="image5">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" > </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.dropbutton').click(function(){
+          $('ul li').toggle('active')
+          $('dropbutton').toggleClass('active')
+        })
+      })
+    </script>
 
   </body>
 </html>
