@@ -136,12 +136,7 @@
 
 		}
         .dropdown i:hover ul li {
-            display: block;  
-        }
-        .dropbutton {
-            height: 50px;
-            width: 50px;
-            
+ok            display: block;  
         }
         a:link, a:visited {
             color: white;  
