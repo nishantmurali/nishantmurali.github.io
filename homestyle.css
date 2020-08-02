@@ -138,7 +138,7 @@
         .dropdown i:hover ul li {
             display: block;  
         }
-        #drop-button {
+        .drop-button {
             height: 50px;
             width: 50px;
             
@@ -153,7 +153,7 @@
         .dropdown ul:hover {
             color: salmon;  
 		}
-        #drop-button:hover {
+        .drop-button:hover {
             color:blue;  
 		}
         a:hover {
@@ -301,10 +301,13 @@
             .dropdown ul {
                 position: absolute;
                 top: 43px;
-                right: -20px;
+                right: -100%;
                 padding: 0px;
                 background-color: salmon;
     
+            }
+            .dropdown ul.active {
+                right: -20px;
             }
             .dropdown ul li{
                 list-style: none; 
@@ -332,7 +335,7 @@
             .dropdown ul:hover {
                 color: salmon;  
             }
-            #drop-button:hover {
+            .drop-button:hover {
                 color:blue;  
             }
             a:hover {

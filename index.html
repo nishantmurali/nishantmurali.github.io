@@ -24,7 +24,7 @@
     </div>
 
     <div class="dropdown">
-         <i id="drop-button" class="fa fa-bars" aria-hidden="true"> 
+         <i class="drop-button" class="fa fa-bars" aria-hidden="true"> 
            <ul>
                 <li> <a href="achievements.html"> Achievements </a> </li>
                 <li> <a href="education.html"> Education </a> </li>
@@ -50,6 +50,15 @@
 
     <img src="img/me.PNG" id="image1">
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js" > </script>
+    <script type="text/javascript">
+
+        $(document).ready(funtion(){
+          $('.drop-button').click(function(){
+            $('ul').toggleClass('active') 
+          })
+        })
+    </script>
     
   </body>
 </html>
