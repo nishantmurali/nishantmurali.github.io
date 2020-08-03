@@ -203,7 +203,7 @@
     
                 display: grid;
                 grid-template-columns:1fr 1fr 1fr 1fr;
-                grid-template-rows: 100px 200px 200px 200px 200px 200px 200px 200px 200px 25px;
+                grid-template-rows: 100px 200px 200px 200px 200px 200px 250px 200px 200px 25px;
                 gap: 10px;
                 grid-row-gap: 20px;
             }
@@ -365,10 +365,10 @@
                 z-index: 0; 
             }
             #image4 {
-                width: 240px;
+                width: 280px;
                 position: absolute;
-                right: 90px;
-                top: 1230px;
+                right: 75px;
+                top: 1240px;
             }
             #image5 {
                 width: 120px;
