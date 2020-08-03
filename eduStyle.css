@@ -1,163 +1,339 @@
-body {
-    margin: 0; 
-    background-color: rgb(20, 20, 20);  
-    overflow: hidden;
-}
-.container {
-    width: 100vw;
-    height: 100vh;
-    
+@media (min-width: 415px) {
+    body {
+        margin: 0; 
+        background-color: rgb(20, 20, 20);  
+        overflow: hidden;
+    }
+    .container {
+        width: 100vw;
+        height: 100vh;
+        
 
-    display: grid;
-    grid-template-columns:1fr 2fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 100px;
-    gap: 10px;
-    grid-row-gap: 20px;
-}
-.container div {
-    padding: 10px;
-    border: 1px solid white;
-}
-.header {
-    grid-column-start: 1;
-    grid-column-end: 4;
+        display: grid;
+        grid-template-columns:1fr 2fr 1fr;
+        grid-template-rows: 50px 1fr 1fr 100px;
+        gap: 10px;
+        grid-row-gap: 20px;
+    }
+    .container div {
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 4;
 
-    background-color: salmon;
-    font-weight: bold;
-    color: white; 
-    font-size: 20px;
-    font-family: Monospace;
-    text-align: center;
-}
-.content1 {
-    grid-row-start: 2;
-    grid-row-end: span 2;
-    grid-column-start: ;
-    grid-column-end: 3;
-}
-h1 {
+        background-color: salmon;
+        font-weight: bold;
+        color: white; 
+        font-size: 20px;
+        font-family: Monospace;
+        text-align: center;
+    }
+    .content1 {
+        grid-row-start: 2;
+        grid-row-end: span 2;
+        grid-column-start: ;
+        grid-column-end: 3;
+    }
+    h1 {
+        color: white;
+        font-family: monospace;  
+        text-align: center
+    }
+    h2 {
+        float: left;
+        color: white;
+        font-family: monospace; 
+        visibility:hidden;
+    }
+    p {
     color: white;
     font-family: monospace;  
-    text-align: center
-}
-h2 {
-    float: left;
-    color: white;
-    font-family: monospace; 
-    visibility:hidden;
-}
-p {
-   color: white;
-   font-family: monospace;  
-   font-size: 15px;
-   text-align: center;
-}
-#icons ul{
-    list-style: none;
-    position: absolute;
-    top: 15px;
-    right: 50px;
-    margin: 0;
-}
-#icons ul li{
-    float: left; 
-    width: 50px;
-    color: white;
-}
-.home {
-    width: 50px;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    color: white;
-}
-.dropdown {
-      list-style: none;
-      width: 50px;
-      position: absolute;
-      top: 15px;
-      right: 0px;
-      color: white;
-}
-.dropdown ul {
-    position: absolute;
-    right: 0px;
-    padding: 0px;
-    background-color: salmon;
-}
-.dropdown ul li{
-    list-style: none; 
-    color: white;
-    font-family: monospace;
-    width: 100px;
-    border: 1px solid white;
-    padding: 10px;
-    display: none;
-    text-align: center;	
-    background-color: rgb(0, 0, 0, 0);
-}
-.dropdown i:hover ul li {
-    display: block;  
-}
-a:link, a:visited {
-    color: white;  
-    text-decoration: none;
-}
-.dropdown ul li:hover {
-    color: blue;  
-}
-.dropdown ul:hover {
-    color: blue;  
-}
-#drop-button:hover {
-    color:blue;  
-}
-a:hover {
-    color: blue;  
-}
-.accolades {
-    color: white;
-    font-family: monospace;
     font-size: 15px;
+    text-align: center;
+    }
+    #icons ul{
+        list-style: none;
+        position: absolute;
+        top: 15px;
+        right: 50px;
+        margin: 0;
+    }
+    #icons ul li{
+        float: left; 
+        width: 50px;
+        color: white;
+    }
+    .home {
+        width: 50px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        color: white;
+    }
+    .dropdown {
+        list-style: none;
+        width: 50px;
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        color: white;
+    }
+    .dropdown ul {
+        position: absolute;
+        right: 0px;
+        padding: 0px;
+        background-color: salmon;
+    }
+    .dropdown ul li{
+        list-style: none; 
+        color: white;
+        font-family: monospace;
+        width: 100px;
+        border: 1px solid white;
+        padding: 10px;
+        display: none;
+        text-align: center;	
+        background-color: rgb(0, 0, 0, 0);
+    }
+    .dropdown i:hover ul li {
+        display: block;  
+    }
+    .dropbutton:hover {
+        color: blue;
+    }
+    a:link, a:visited {
+        color: white;  
+        text-decoration: none;
+    }
+    .dropdown ul li:hover {
+        color: blue;  
+    }
+    .dropdown ul:hover {
+        color: blue;  
+    }
+    a:hover {
+        color: blue;  
+    }
+    .accolades {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    .apclasses {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    h3 {
+        color: white;
+        font-family: monospace;
+        font-size: 35px;    
+    }
+    h4 {
+        color: white;
+        font-family: monospace;
+        font-size: 35px;
+    }
+    #year {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+        position: absolute;
+        top: 215px;
+    }
+    #year2 {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+        position: absolute;
+        top: 295px;
+    }
+    #image1 {
+        width: 270px;
+        position: absolute;
+        top: 345px;
+        left: 25px;
+    }
+    #image2 {
+        width: 200px;
+        position: absolute;
+        top: 380px;
+        right: 50px;
+    }
 }
-.apclasses {
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+    body {
+        margin: 0; 
+        background-color: rgb(20, 20, 20);  
+        overflow: hidden;
+    }
+    .container {
+        width: 100vw;
+        height: 100vh;
+        
+
+        display: grid;
+        grid-template-columns:1fr 2fr 1fr;
+        grid-template-rows: 50px 1fr 1fr 100px;
+        gap: 10px;
+        grid-row-gap: 20px;
+    }
+    .container div {
+        padding: 10px;
+        border: 1px solid white;
+    }
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        background-color: salmon;
+        font-weight: bold;
+        color: white; 
+        font-size: 20px;
+        font-family: Monospace;
+        text-align: center;
+    }
+    .content1 {
+        grid-row-start: 2;
+        grid-row-end: span 2;
+        grid-column-start: ;
+        grid-column-end: 3;
+    }
+    h1 {
+        color: white;
+        font-family: monospace;  
+        text-align: center
+    }
+    h2 {
+        float: left;
+        color: white;
+        font-family: monospace; 
+        visibility:hidden;
+    }
+    p {
     color: white;
-    font-family: monospace;
+    font-family: monospace;  
     font-size: 15px;
-}
-h3 {
-    color: white;
-    font-family: monospace;
-    font-size: 35px;    
-}
-h4 {
-    color: white;
-    font-family: monospace;
-    font-size: 35px;
-}
-#year {
-    color: white;
-    font-family: monospace;
-    font-size: 15px;
-    position: absolute;
-    top: 215px;
-}
-#year2 {
-    color: white;
-    font-family: monospace;
-    font-size: 15px;
-    position: absolute;
-    top: 295px;
-}
-#image1 {
-    width: 270px;
-    position: absolute;
-    top: 345px;
-    left: 25px;
-}
-#image2 {
-    width: 200px;
-    position: absolute;
-    top: 380px;
-    right: 50px;
+    text-align: center;
+    }
+    #icons ul{
+        list-style: none;
+        position: absolute;
+        top: 15px;
+        right: 50px;
+        margin: 0;
+    }
+    #icons ul li{
+        float: left; 
+        width: 50px;
+        color: white;
+    }
+    .home {
+        width: 50px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        color: white;
+    }
+    .dropdown {
+        list-style: none;
+        width: 50px;
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        color: white;
+    }
+    .dropdown ul {
+        position: absolute;
+        right: 0px;
+        padding: 0px;
+        background-color: salmon;
+    }
+    .dropdown ul li{
+        list-style: none; 
+        color: white;
+        font-family: monospace;
+        width: 100px;
+        border: 1px solid white;
+        padding: 10px;
+        display: none;
+        text-align: center;	
+        background-color: rgb(0, 0, 0, 0);
+    }
+    .dropdown ul li:active {
+        display: block;
+    }
+    a:link, a:visited {
+        color: white;  
+        text-decoration: none;
+    }
+    .dropdown ul li:hover {
+        color: blue;  
+    }
+    .dropdown ul:hover {
+        color: blue;  
+    }
+    a:hover {
+        color: blue;  
+    }
+    .accolades {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    .apclasses {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+    }
+    h3 {
+        color: white;
+        font-family: monospace;
+        font-size: 35px;    
+    }
+    h4 {
+        color: white;
+        font-family: monospace;
+        font-size: 35px;
+    }
+    #year {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+        position: absolute;
+        top: 215px;
+    }
+    #year2 {
+        color: white;
+        font-family: monospace;
+        font-size: 15px;
+        position: absolute;
+        top: 295px;
+    }
+    #image1 {
+        width: 270px;
+        position: absolute;
+        top: 345px;
+        left: 25px;
+    }
+    #image2 {
+        width: 200px;
+        position: absolute;
+        top: 380px;
+        right: 50px;
+    }
 }
