@@ -192,7 +192,7 @@
 
         display: grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 185px 185px 185px 185px 185px 160px 25px;
+        grid-template-rows: 100px 250px 250px 250px 250px 250px 250px 25px;
         gap: 10px;
         grid-row-gap: 20px;
     }
@@ -264,7 +264,7 @@
     p {
        color: white;
        font-family: monospace;  
-       font-size: 10px;
+       font-size: 12px;
     }
     #icons ul{
         list-style: none;
@@ -328,24 +328,24 @@
         color: blue;  
     }
     #image2 {
-        width: 250px;
+        width: 330px;
         position: absolute;
-        top: 300px;
-        right: 80px;
+        top: 350px;
+        right: 45px;
         z-index: 0;
     }
     #image3 {
-        width: 200px;
+        width: 300px;
         position: absolute;
-        top: 750px;
-        left: 110px;
+        top: 930px;
+        left: 60px;
         z-index: 0; 
     }
     #image4 {
-        width: 180px;
+        width: 300px;
         position: absolute;
-        right: 120px;
-        top: 1150px;
+        right: 60px;
+        top: 1470px;
         
     }
 }
