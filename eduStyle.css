@@ -188,7 +188,7 @@
 
         display: grid;
         grid-template-columns:1fr 2fr 1fr;
-        grid-template-rows: 50px 1fr 1fr 100px;
+        grid-template-rows: 100px 1fr 1fr 100px;
         gap: 10px;
         grid-row-gap: 20px;
     }
@@ -210,8 +210,20 @@
     .content1 {
         grid-row-start: 2;
         grid-row-end: span 2;
-        grid-column-start: ;
-        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .content2 {
+        grid-row-start: 4;
+        grid-row-end: span 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .content3 {
+        grid-row-start: 4;
+        grid-row-end: span 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
     h1 {
         color: white;
@@ -325,13 +337,13 @@
         top: 295px;
     }
     #image1 {
-        width: 270px;
+        width: 150px;
         position: absolute;
         top: 345px;
         left: 25px;
     }
     #image2 {
-        width: 200px;
+        width: 120px;
         position: absolute;
         top: 380px;
         right: 50px;
