@@ -273,11 +273,7 @@
         font-size: 30px;
         font-family: monospace; 
     }
-    p {
-        color: white;
-        font-family: monospace;  
-        font-size: 15px;
-        text-align: center;
+
     }
     #icons ul{
         list-style: none;
@@ -353,12 +349,12 @@
     h3 {
         color: white;
         font-family: monospace;
-        font-size: 30px;    
+        font-size: 34px;    
     }
     h4 {
         color: white;
         font-family: monospace;
-        font-size: 30px;
+        font-size: 34px;
     }
     #year {
         color: white;
@@ -372,7 +368,7 @@
         font-family: monospace;
         font-size: 15px;
         position: absolute;
-        top: 390px;
+        top: 385px;
     }
     #image1 {
         width: 100px;
