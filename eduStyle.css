@@ -237,10 +237,10 @@
         visibility:hidden;
     }
     p {
-    color: white;
-    font-family: monospace;  
-    font-size: 15px;
-    text-align: center;
+        color: white;
+        font-family: monospace;  
+        font-size: 15px;
+        text-align: center;
     }
     #icons ul{
         list-style: none;
@@ -327,25 +327,25 @@
         font-family: monospace;
         font-size: 15px;
         position: absolute;
-        top: 215px;
+        top: 257px;
     }
     #year2 {
         color: white;
         font-family: monospace;
         font-size: 15px;
         position: absolute;
-        top: 295px;
+        top: 380px;
     }
     #image1 {
-        width: 150px;
+        width: 100px;
         position: absolute;
-        top: 345px;
+        top: 400px;
         left: 25px;
     }
     #image2 {
-        width: 120px;
+        width: 80px;
         position: absolute;
-        top: 380px;
+        top: 410px;
         right: 50px;
     }
 }
