@@ -42,16 +42,18 @@
         text-align: center
     }
     h2 {
-        float: left;
         color: white;
-        font-family: monospace; 
-        visibility:hidden;
+            position: absolute;
+            left: 590.5px;
+            top: -2px;
+            font-size: 20px;
+            font-family: monospace; 
     }
     p {
-    color: white;
-    font-family: monospace;  
-    font-size: 15px;
-    text-align: center;
+        color: white;
+        font-family: monospace;  
+        font-size: 15px;
+        text-align: center;
     }
     #icons ul{
         list-style: none;
