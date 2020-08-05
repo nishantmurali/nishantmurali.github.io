@@ -2,7 +2,7 @@
     body {
         margin: 0; 
         background-color: rgb(20, 20, 20);  
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .container {
         width: 100vw;
@@ -11,13 +11,12 @@
 
         display: grid;
         grid-template-columns:1fr 2fr 1fr;
-        grid-template-rows: 50px 1fr 1fr 100px;
+        grid-template-rows: 50px 1fr 1fr 100px 25px;
         gap: 10px;
         grid-row-gap: 20px;
     }
     .container div {
         padding: 10px;
-        border: 1px solid white;
     }
     .header {
         grid-column-start: 1;
@@ -30,11 +29,30 @@
         font-family: Monospace;
         text-align: center;
     }
+    .footer{
+        grid-row-start: 7;
+        grid-row-end: span 1;
+        grid-column-start: 1;
+        grid-column-end: 4; 
+
+        background-color: rgb(20, 20, 20, 0);
+        color: white; 
+        font-size: 12px;
+        font-family: monospace;
+        text-align: right;  
+    }
     .content1 {
         grid-row-start: 2;
-        grid-row-end: span 2;
+        grid-row-end: span 3;
         grid-column-start: ;
         grid-column-end: 3;
+        border: 1px solid white;
+    }
+    .content2 {
+        border: 1px solid white;
+    }
+    .content3 {
+        border: 1px solid white;
     }
     h1 {
         color: white;
@@ -155,13 +173,13 @@
     #image1 {
         width: 270px;
         position: absolute;
-        top: 345px;
+        top: 365px;
         left: 25px;
     }
     #image2 {
         width: 200px;
         position: absolute;
-        top: 380px;
+        top: 400px;
         right: 50px;
     }
 }
