@@ -349,19 +349,19 @@
     h3 {
         color: white;
         font-family: monospace;
-        font-size: 34px;    
+        font-size: 35px;    
     }
     h4 {
         color: white;
         font-family: monospace;
-        font-size: 34px;
+        font-size: 35px;
     }
     #year {
         color: white;
         font-family: monospace;
         font-size: 15px;
         position: absolute;
-        top: 267px;
+        top: 260px;
     }
     #year2 {
         color: white;
