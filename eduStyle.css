@@ -231,10 +231,13 @@
         text-align: center
     }
     h2 {
-        float: left;
+        float: center;
+        position: absolute;
+        right: 135px;
+        top: 6px;
         color: white;
+        font-size: 30px;
         font-family: monospace; 
-        visibility:hidden;
     }
     p {
         color: white;
