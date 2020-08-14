@@ -195,8 +195,8 @@
 
 
 
-@media (max-width: 414px) {
-    body {
+@media (max-width: 415px) {
+   body {
         margin: 0; 
         background-color: rgb(20, 20, 20);  
         overflow-x: hidden;
@@ -272,8 +272,6 @@
         color: white;
         font-size: 30px;
         font-family: monospace; 
-    }
-
     }
     #icons ul{
         list-style: none;
@@ -381,5 +379,6 @@
         position: absolute;
         top: 420px;
         right: 50px;
-    }
+    } 
 }
+    
